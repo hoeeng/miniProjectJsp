@@ -6,7 +6,7 @@ public class MiniBoardDTO {
 	private int num, hit, likey;
 	private String id, nickname, title, content;
 	private Timestamp savedate;
-	
+
 	
 	public int getNum() {
 		return num;
@@ -23,7 +23,7 @@ public class MiniBoardDTO {
 	public int getLikey() {
 		return likey;
 	}
-	public void setLike(int likey) {
+	public void setLikey(int likey) {
 		this.likey = likey;
 	}
 	public String getId() {

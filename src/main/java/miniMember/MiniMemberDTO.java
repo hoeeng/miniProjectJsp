@@ -2,6 +2,15 @@ package miniMember;
 
 public class MiniMemberDTO {
 	private String id, pw, nickname;
+	private int likey;
+
+	public int getLikey() {
+		return likey;
+	}
+
+	public void setLikey(int likey) {
+		this.likey = likey;
+	}
 
 	public String getId() {
 		return id;
