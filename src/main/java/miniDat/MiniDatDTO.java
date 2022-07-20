@@ -3,11 +3,23 @@ package miniDat;
 import java.sql.Timestamp;
 
 public class MiniDatDTO {
-	private int num;
+	private int num, datnum, likey;
 	private String id, nickname, content;
 	private Timestamp savedate;
 	
+	public int getLikey() {
+		return likey;
+	}
+	public void setLikey(int likey) {
+		this.likey = likey;
+	}
 	
+	public int getDatnum() {
+		return datnum;
+	}
+	public void setDatnum(int datnum) {
+		this.datnum = datnum;
+	}
 	public int getNum() {
 		return num;
 	}

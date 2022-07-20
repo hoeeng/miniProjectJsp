@@ -23,7 +23,7 @@ public class MiniBoardDTO {
 	public int getLikey() {
 		return likey;
 	}
-	public void setLike(int likey) {
+	public void setLikey(int likey) {
 		this.likey = likey;
 	}
 	public String getId() {
