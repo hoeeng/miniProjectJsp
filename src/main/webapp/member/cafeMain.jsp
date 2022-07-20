@@ -7,6 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
+<%@ include file="../base/header.jsp" %>
+<br><br><br><br><br>
+<a href="login.jsp">로그인</a>
+<a href="register.jsp">회원가입</a>
 
 </body>
 </html>

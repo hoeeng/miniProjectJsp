@@ -3,11 +3,16 @@ package miniDat;
 import java.sql.Timestamp;
 
 public class MiniDatDTO {
-	private int num;
+	private int num, boardnum;
 	private String id, nickname, content;
 	private Timestamp savedate;
 	
-	
+	public int getBoardnum() {
+		return boardnum;
+	}
+	public void setBoardnum(int boardnum) {
+		this.boardnum = boardnum;
+	}
 	public int getNum() {
 		return num;
 	}
